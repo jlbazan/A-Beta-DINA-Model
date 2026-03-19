@@ -55,7 +55,7 @@ Inside this folder, we have six files
      - "FitBDINAModelBApp1.R referring to R code fitting the named Model B and obtaining results.
 
 
-## Instructions for Executing R and WinBUGS Codes
+## Instructions for Executing R and JAGS Codes
 
 The following instructions describe how to execute the codes in R and WinBUGS:
 
