@@ -80,7 +80,7 @@ See the [LICENSE](./LICENSE.txt) file for full terms.
 
 To cite this repository, please use the following reference:
 
-Jorge L. Bazán, Eduardo S. B. de Oliveira, Xiaojing Wang and Jimmy de la Torre (2026). Model in Jags: A Cognitive Diagnosis Model for Latent Classification of Bounded Continuous Variables. Version v1.0. URL: https://github.com/jlbazan/SMSNobit-regression-model.
+Jorge L. Bazán, Eduardo S. B. de Oliveira, Xiaojing Wang and Jimmy de la Torre (2026). Model in Jags: A Cognitive Diagnosis Model for Latent Classification of Bounded Continuous Variables. Version v1.0. URL: https://github.com/jlbazan/A-Bounded-Beta-DINA-Model.
 
 If you prefer to include it as a BibTeX entry:
 
@@ -89,7 +89,7 @@ author = {Jorge L. Bazán and Eduardo S. B. de Oliveira and Xiaojing Wang and Ji
 title = {odel in Jags: A Cognitive Diagnosis Model for Latent Classification of Bounded Continuous Variables},  <br>
 year = {2026},  <br>
 version = {v1.0},
-url = {https://github.com/jlbazan/SMSNobit-regression-model}, <br>
+url = {https://github.com/jlbazan/A-Bounded-Beta-DINA-Model}, <br>
 note = {Github} <br>
 } <br>
 
