@@ -1,0 +1,39 @@
+model{
+#likelihood
+ for (i in 1:N) {
+  for (j in 1:J) {
+    for (k in 1:K) {
+      w[i, j, k] <- pow(alpha[i, k], q[j, k])
+                    }
+    eta[i, j] <- prod(w[i, j, 1:K])
+
+a[i, j]<-exp(m0[j]+m1[j]*eta[i,j])
+b[i,j]<-exp(n0[j]+n1[j]*eta[i,j])
+Y[i, j] ~ dbeta( a[i,j], b[i,j])
+#log likelihood 
+    loglik[i, j] <- logdensity.beta(Y[i,j],a[i, j], b[i, j])
+}
+
+for (k in 1:K) {
+alpha[i, k] <- all.patterns[c[i], k]
+}
+c[i] ~ dcat(pai[1:C])#the class of person n
+}
+pai[1:C] ~ ddirch(delta[1:C]) #the prio of pai
+for (j in 1:J) {
+m0[j]~dnorm(0,1/16)
+m1[j]~dnorm(0, 1/16) T(0,)
+n0[j]~ dnorm(0,1/16)
+n1[j]~ dnorm(0, 1/16)
+}
+
+
+ for (i in 1:N) {
+  for (j in 1:J) {
+    Y.rep[i,j] ~ dbeta(a[i, j], b[i, j])
+    }
+    }
+sumyrep <- sum(Y.rep[1:N,1:J])
+sumy <- sum(Y[1:N,1:J])
+  ppp<- step(sumyrep-sumy)
+}
