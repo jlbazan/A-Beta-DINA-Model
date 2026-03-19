@@ -1,7 +1,7 @@
 # A Cognitive Diagnosis Model for Latent Classification of Bounded Continuous Variable
 
 
-** Eduardo S. B. de Oliveira<sup>1</sup>,  Xiaojing Wang<sup>2</sup>, Jorge L. Bazán<sup>3,4</sup>**, and 
+Eduardo S. B. de Oliveira<sup>1</sup>,  Xiaojing Wang<sup>2</sup>, Jorge L. Bazán<sup>3,4</sup>**, and 
 AJimmy de la Torre<sup>5</sup>
 
 <sup>1</sup>Banco Pan, São Paulo, Brazill  
