@@ -36,10 +36,7 @@ link: https://www.jstatsoft.org/index.php/jss/article/view/v012i03/33
 The .zip file with the paper codes is divided into two folders as follows:
 "Application1" and "Application2" folders and files Packages.R with the necessaries R packages
 
-
-####################################################################################################
-
-The folder "Application1" contains the files necessary to reproduce the results based in Application 1. 
+1. The folder "Application1" contains the files necessary to reproduce the results based in Application 1. 
 Inside this folder, we have six files  
      - "BDINAmodelA.txt" referring to bugs code of the named Model A.
      - "BDINAmodelB.txt" referring to bugs code of the named Model B.
@@ -48,10 +45,7 @@ Inside this folder, we have six files
      - "FitBDINAModelAApp1.R referring to R code fitting the named Model A and obtaining results.
      - "FitBDINAModelBApp1.R referring to R code fitting the named Model B and obtaining results.
 
-
-####################################################################################################
-
-The folder "Application1" contains the files necessary to reproduce the results based in Application 1. 
+2. The folder "Application1" contains the files necessary to reproduce the results based in Application 1. 
 Inside this folder, we have six files  
      - "BDINAmodelA.txt" referring to bugs code of the named Model A.
      - "BDINAmodelB.txt" referring to bugs code of the named Model B.
@@ -60,7 +54,6 @@ Inside this folder, we have six files
      - "FitBDINAModelAApp1.R referring to R code fitting the named Model A and obtaining results.
      - "FitBDINAModelBApp1.R referring to R code fitting the named Model B and obtaining results.
 
-#####################################################################################################
 
 ## Instructions for Executing R and WinBUGS Codes
 
