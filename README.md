@@ -10,7 +10,7 @@
 <sup>4</sup>Department of Applied Mathematics and Statistics, University of São Paulo, São Carlos, Brazil  
 <sup>5</sup>Faculty of Education, The University of Hong Kong, Hong Kong, Hong Kong 
 
-** Corresponding author:** Jorge L. Bazán, jlbazan@uc.cl, jlbazan@icmc.usp.br
+**Corresponding author:** Jorge L. Bazán, jlbazan@uc.cl, jlbazan@icmc.usp.br
 
     
                                                                                                    	
