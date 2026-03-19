@@ -59,15 +59,14 @@ Inside this folder, we have six files
 
 The following instructions describe how to execute the codes in R and WinBUGS:
 
-1. Open the file Application41.R and run the script in R.
-3. Note that for default are consided the following MCMC values: niter=3000, nburnin=1000, nthin=2.
-If want to reproduce results on Section 4.1 modify to MCMC values on the paper.
+1. Open the files .R in each folder and run the script in R.
+3. Note that for default are consided the following MCMC values: niter=5000, nburnin=1000, nthin=1 and two chains.
 
 
 ## License
 
-This repository is licensed under a custom **Personal Use License (2025)**.  
-© 2025 Jorge L. Bazán, Victor H. Lachos, and Alex de la Cruz Huayanay.  
+This repository is licensed under a custom **Personal Use License (2026)**.  
+© 2026 Jorge L. Bazán, Eduardo S. B. de Oliveira, Xiaojing Wang and Jimmy de la Torre.  
 
 - Personal use only  
 - Redistribution and commercial use are prohibited  
